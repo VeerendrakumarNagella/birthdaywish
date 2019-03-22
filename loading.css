@@ -117,3 +117,32 @@
     transform: rotate(360deg);
   }
 }
+@media only screen and (max-width: 500px) {
+  .balloons {
+    width: 80px;
+    height: 145px;
+    background-repeat: no-repeat no-repeat;
+    background-size: 80px 145px;
+  }
+  div#b11 {
+    left: -15px !important;
+  }
+  div#b22 {
+    left: 45px !important;
+  }
+  div#b33 {
+    left: 105px !important;
+  }
+  div#b44 {
+    left: 165px !important;
+  }
+  div#b55 {
+    left: 225px !important;
+  }
+  div#b66 {
+    left: 285px !important;
+  }
+  div#b77 {
+    left: 345px !important;
+  }
+}
