@@ -101,6 +101,19 @@
     transform: rotate(360deg);
   }
 }
+div#b77 h2 a {
+  display: inline-block;
+}
+div#b77 h2 a img {
+  width: 5opx;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+
+}
+button {
+  cursor: pointer !important;
+}
 @keyframes spinner {
   0% {
     -webkit-transform: rotate(0deg);
